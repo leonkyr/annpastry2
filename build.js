@@ -10,23 +10,13 @@ Metalsmith(__dirname)
   .source('src/')
   .destination('./build')
   .use(metadata({
-    "products": 'data/products.json'
-  }))
-  .use(collections({
-    products: {
-      pattern: 'products/*.md'
-      metadata: 'data/products.json'
-    }
-  }))
-  .use(permalinks({
-    pattern: ':collection/:title'
+    products: 'data/products.json'
   }))
   .use(markdown())
   .use(layouts({
     engine: 'handlebars',
     partials: 'partials'
   }))
-
   .use(assets({
     source: './assets', // relative to the working directory
     destination: './' // relative to the build directory
