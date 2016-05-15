@@ -1,0 +1,29 @@
+<!-- Start Latest Cakes-->
+				
+<section class="top">
+	<hr class="tall" />
+	<div class="container">
+		<div class="row" id="projects">
+			<div class="col-md-12">
+				<h1>Latest <strong>Cakes</strong></h1>
+
+				<div class="owl-carousel owl-carousel-spaced" data-plugin-options='{"items": 4, "singleItem": false, "autoHeight": true}'>
+					
+					{{#each products}}
+					{{#if latest}}
+						<div>
+							{{>productPopup}}
+							
+							{{>productCell}}
+						</div>
+					{{/if}}
+					{{/each}}
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr class="tall" />
+</section>
+
+<!-- End Latest Cakes -->

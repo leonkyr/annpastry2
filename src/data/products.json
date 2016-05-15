@@ -1,68 +1,76 @@
 [
   {
-    "id": "first",
-    "name": "First cake",
-    "category": "pastry",
+    "id": "Maraka",
+    "name": "Maraka",
+    "type": "Cake",
     "price": "29.90 EUR",
-    "home_image": "m-product-1-570x760.jpg",
-    "product_image": "m-product-1-600x600.jpg",
-    "page": "cake-raspberry-truffle"
+    "latest": true,
+    "portfolio": true,
+    "ingredients": [
+        "Passion fruit",
+        "White chocolat",
+        "Another one",
+        "Flour"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elit mattis adipiscing. Fusce in hendrerit purus. Suspendisse potenti. Proin quis eros odio, dapibus dictum mauris. Donec nisi libero, adipiscing id pretium eget, consectetur sit amet leo. Nam at eros quis mi egestas fringilla non nec purus."
   },
   {
-    "id": "second",
-    "name": "Second cake",
-    "category": "pastry",
-    "price": "29.90 EUR",
-    "home_image": "m-product-2-570x760.jpg",
-    "product_image": "m-product-2-600x600.jpg",
-    "page": "cake-raspberry-truffle"
+    "id": "pistachio-rasberry-tart",
+    "name": "Pistachio Rasberry Tart",
+    "type": "Tart",
+    "price": "22.90 EUR",
+    "latest": true,
+    "portfolio": true,
+    "ingredients": [
+        "Pistachio",
+        "Rasberry",
+        "Sugar",
+        "Flour"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elit mattis adipiscing. Fusce in hendrerit purus. Suspendisse potenti. Proin quis eros odio, dapibus dictum mauris. Donec nisi libero, adipiscing id pretium eget, consectetur sit amet leo. Nam at eros quis mi egestas fringilla non nec purus."
   },
   {
-    "id": "third",
-    "name": "Third cake",
-    "category": "pastry",
-    "price": "29.90 EUR",
-    "home_image": "m-product-3-570x760.jpg",
-    "product_image": "m-product-3-600x600.jpg"
+    "id": "coffee-wallnut-delight",
+    "name": "Coffee Wallnut Delight",
+    "type": "Cake",
+    "price": "27.90 EUR",
+    "latest": true,
+    "portfolio": true,
+    "ingredients": [
+        "Coffee",
+        "Wallnat",
+        "Sugar",
+        "Flour"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elit mattis adipiscing. Fusce in hendrerit purus. Suspendisse potenti. Proin quis eros odio, dapibus dictum mauris. Donec nisi libero, adipiscing id pretium eget, consectetur sit amet leo. Nam at eros quis mi egestas fringilla non nec purus."
   },
   {
-    "id": "cake-4",
-    "name": "Forth cake",
-    "category": "pastry",
-    "price": "29.90 EUR",
-    "home_image": "m-product-4-570x760.jpg",
-    "product_image": "m-product-4-600x600.jpg"
+    "id": "lemon-meringue",
+    "name": "Lemon Meringue Tart",
+    "type": "Tart",
+    "price": "22.90 EUR",
+    "latest": true,
+    "portfolio": true,
+    "ingredients": [
+        "Lemon",
+        "Eggs",
+        "Sugar",
+        "Flour"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elit mattis adipiscing. Fusce in hendrerit purus. Suspendisse potenti. Proin quis eros odio, dapibus dictum mauris. Donec nisi libero, adipiscing id pretium eget, consectetur sit amet leo. Nam at eros quis mi egestas fringilla non nec purus."
   },
   {
-    "id": "fifth",
-    "name": "Fifth cake",
-    "category": "pastry",
+    "id": "Maraka",
+    "name": "Another",
+    "type": "Cake",
     "price": "29.90 EUR",
-    "home_image": "m-product-5-570x760.jpg",
-    "product_image": "m-product-5-600x600.jpg"
-  },
-  {
-    "id": "six",
-    "name": "Six cake",
-    "category": "pastry",
-    "price": "29.90 EUR",
-    "home_image": "m-product-6-570x760.jpg",
-    "product_image": "m-product-6-600x600.jpg"
-  },
-  {
-    "id": "seventh",
-    "name": "Seventh cake",
-    "category": "pastry",
-    "price": "29.90 EUR",
-    "home_image": "m-product-7-570x760.jpg",
-    "product_image": "m-product-7-600x600.jpg"
-  },
-  {
-    "id": "eigth",
-    "name": "Eigth cake",
-    "category": "pastry",
-    "price": "29.90 EUR",
-    "home_image": "m-product-8-570x760.jpg",
-    "product_image": "m-product-8-600x600.jpg"
+    "latest": false,
+    "portfolio": true,
+    "ingredients": [
+        "Passion fruit",
+        "White chocolat",
+        "Another one",
+        "Flour"
+    ]
   }
 ]

@@ -1,0 +1,26 @@
+<div id="popupProduct{{id}}" class="popup-inline-content">
+	<h2>{{name}}</h2>
+
+	<div class="row">
+		<div class="col-md-6">
+			<img class="img-thumbnail img-responsive" alt="" src="img/products/product-{{id}}.jpg">
+		</div>
+
+		<div class="col-md-6">
+
+			<h4>{{type}} <strong>Description</strong></h4>
+			<p>{{description}}</p>
+
+			<h4>Price <strong>{{price}}</strong></h4>
+
+			<a href="#" class="btn btn-primary">Order Now </a> <span class="arrow hlb"></span>
+
+			<h4 class="push-top">Ingredients</h4>
+			{{#each ingredients}}
+				<ul class="list icons list-unstyled">
+					<li><i class="icon icon-check"></i>{{this}}</li>
+				</ul>
+			{{/each}}
+		</div>
+	</div>
+</div>

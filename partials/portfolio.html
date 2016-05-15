@@ -1,0 +1,33 @@
+<!-- Start Portfolio -->
+<div class="container">
+
+	<h2>Portfolio</h2>
+
+	<ul class="nav nav-pills sort-source" data-sort-id="portfolio" data-option-key="filter">
+		<li data-option-value="*" class="active"><a href="#">Show All</a></li>
+		<li data-option-value=".cake"><a href="#">Cakes</a></li>
+		<li data-option-value=".tart"><a href="#">Tarts</a></li>
+		<li data-option-value=".pastry"><a href="#">Pastries</a></li>
+	</ul>
+
+	<hr />
+
+	<div class="row">
+
+		<ul class="portfolio-list sort-destination" data-sort-id="portfolio">
+			{{#each products}}
+			{{#if portfolio}}
+				<li class="col-md-3 isotope-item {{type}}">
+					<div>
+						{{>productPopup}}
+
+						{{>productCell}}
+					</div>
+				</li>
+			{{/if}}
+			{{/each}}
+		</ul>
+	</div>
+	<hr class="tall" />
+</div>
+<!-- End Portfolio -->
