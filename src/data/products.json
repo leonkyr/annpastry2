@@ -1,0 +1,68 @@
+[
+  {
+    "id": "first",
+    "name": "First cake",
+    "category": "pastry",
+    "price": "29.90 EUR",
+    "home_image": "m-product-1-570x760.jpg",
+    "product_image": "m-product-1-600x600.jpg",
+    "page": "cake-raspberry-truffle"
+  },
+  {
+    "id": "second",
+    "name": "Second cake",
+    "category": "pastry",
+    "price": "29.90 EUR",
+    "home_image": "m-product-2-570x760.jpg",
+    "product_image": "m-product-2-600x600.jpg",
+    "page": "cake-raspberry-truffle"
+  },
+  {
+    "id": "third",
+    "name": "Third cake",
+    "category": "pastry",
+    "price": "29.90 EUR",
+    "home_image": "m-product-3-570x760.jpg",
+    "product_image": "m-product-3-600x600.jpg"
+  },
+  {
+    "id": "cake-4",
+    "name": "Forth cake",
+    "category": "pastry",
+    "price": "29.90 EUR",
+    "home_image": "m-product-4-570x760.jpg",
+    "product_image": "m-product-4-600x600.jpg"
+  },
+  {
+    "id": "fifth",
+    "name": "Fifth cake",
+    "category": "pastry",
+    "price": "29.90 EUR",
+    "home_image": "m-product-5-570x760.jpg",
+    "product_image": "m-product-5-600x600.jpg"
+  },
+  {
+    "id": "six",
+    "name": "Six cake",
+    "category": "pastry",
+    "price": "29.90 EUR",
+    "home_image": "m-product-6-570x760.jpg",
+    "product_image": "m-product-6-600x600.jpg"
+  },
+  {
+    "id": "seventh",
+    "name": "Seventh cake",
+    "category": "pastry",
+    "price": "29.90 EUR",
+    "home_image": "m-product-7-570x760.jpg",
+    "product_image": "m-product-7-600x600.jpg"
+  },
+  {
+    "id": "eigth",
+    "name": "Eigth cake",
+    "category": "pastry",
+    "price": "29.90 EUR",
+    "home_image": "m-product-8-570x760.jpg",
+    "product_image": "m-product-8-600x600.jpg"
+  }
+]
