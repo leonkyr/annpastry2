@@ -29,36 +29,15 @@
 						<h4>Recent Work</h4>
 
 						<ul class="list-unstyled recent-work">
-							<li>
-								<a class="thumb-info" href="portfolio-single-project.html">
-									<img src="img/projects/project.jpg" alt="">
-								</a>
-							</li>
-							<li>
-								<a class="thumb-info" href="portfolio-single-project.html">
-									<img class="img-responsive" src="img/projects/project-1.jpg" alt="">
-								</a>
-							</li>
-							<li>
-								<a class="thumb-info" href="portfolio-single-project.html">
-									<img class="img-responsive" src="img/projects/project-2.jpg" alt="">
-								</a>
-							</li>
-							<li>
-								<a class="thumb-info" href="portfolio-single-project.html">
-									<img class="img-responsive" src="img/projects/project-3.jpg" alt="">
-								</a>
-							</li>
-							<li>
-								<a class="thumb-info" href="portfolio-single-project.html">
-									<img class="img-responsive" src="img/projects/project-4.jpg" alt="">
-								</a>
-							</li>
-							<li>
-								<a class="thumb-info" href="portfolio-single-project.html">
-									<img class="img-responsive" src="img/projects/project-5.jpg" alt="">
-								</a>
-							</li>
+							{{#each products}}
+							{{#if latest}}
+								<li>
+									<a class="thumb-info" href="#latestProducts">
+										<img src="img/products/product-{{id}}.jpg" alt="{{name}}">
+									</a>
+								</li>
+							{{/if}}
+							{{/each}}
 						</ul>
 
 						<a href="#" class="btn-flat pull-right btn-xs view-more-recent-work">View More <i class="icon icon-arrow-right"></i></a>

@@ -60,17 +60,95 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elit mattis adipiscing. Fusce in hendrerit purus. Suspendisse potenti. Proin quis eros odio, dapibus dictum mauris. Donec nisi libero, adipiscing id pretium eget, consectetur sit amet leo. Nam at eros quis mi egestas fringilla non nec purus."
   },
   {
-    "id": "Maraka",
-    "name": "Another",
+    "id": "spice-pear",
+    "name": "Spice Pear",
     "type": "Cake",
     "price": "29.90 EUR",
+    "latest": true,
+    "portfolio": true,
+    "ingredients": [
+        "Spices",
+        "Pears",
+        "Sugar",
+        "Eggs",
+        "Flour"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elit mattis adipiscing. Fusce in hendrerit purus. Suspendisse potenti. Proin quis eros odio, dapibus dictum mauris. Donec nisi libero, adipiscing id pretium eget, consectetur sit amet leo. Nam at eros quis mi egestas fringilla non nec purus."
+  },
+  {
+    "id": "honey-cake-6",
+    "name": "Honey Cake",
+    "type": "Cake",
+    "price": "18.00 EUR",
+    "latest": true,
+    "portfolio": true,
+    "ingredients": [
+        "Honey",
+        "Sugar",
+        "Eggs",
+        "Flour"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elit mattis adipiscing. Fusce in hendrerit purus. Suspendisse potenti. Proin quis eros odio, dapibus dictum mauris. Donec nisi libero, adipiscing id pretium eget, consectetur sit amet leo. Nam at eros quis mi egestas fringilla non nec purus."
+  },
+  {
+    "id": "eclair-pastry",
+    "name": "Eclair",
+    "type": "Pastry",
+    "price": "2.50 EUR",
     "latest": false,
     "portfolio": true,
     "ingredients": [
-        "Passion fruit",
-        "White chocolat",
-        "Another one",
+        "Butter",
+        "Sugar",
+        "Eggs",
         "Flour"
-    ]
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elit mattis adipiscing. Fusce in hendrerit purus. Suspendisse potenti. Proin quis eros odio, dapibus dictum mauris. Donec nisi libero, adipiscing id pretium eget, consectetur sit amet leo. Nam at eros quis mi egestas fringilla non nec purus."
+  },
+  {
+    "id": "strawberry-white-chocolate",
+    "name": "Strawberry white chocolate",
+    "type": "Cake",
+    "price": "27.50 EUR",
+    "latest": false,
+    "portfolio": true,
+    "ingredients": [
+        "Strawberry",
+        "White chocolate",
+        "Sugar",
+        "Eggs",
+        "Flour"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elit mattis adipiscing. Fusce in hendrerit purus. Suspendisse potenti. Proin quis eros odio, dapibus dictum mauris. Donec nisi libero, adipiscing id pretium eget, consectetur sit amet leo. Nam at eros quis mi egestas fringilla non nec purus."
+  },
+  {
+    "id": "coconut-strawberry",
+    "name": "Coconut strawberry",
+    "type": "Cake",
+    "price": "27.00 EUR",
+    "latest": false,
+    "portfolio": true,
+    "ingredients": [
+        "Strawberry",
+        "Coconut",
+        "Sugar",
+        "Flour"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elit mattis adipiscing. Fusce in hendrerit purus. Suspendisse potenti. Proin quis eros odio, dapibus dictum mauris. Donec nisi libero, adipiscing id pretium eget, consectetur sit amet leo. Nam at eros quis mi egestas fringilla non nec purus."
+  },
+  {
+    "id": "blue-cake",
+    "name": "Blue cake",
+    "type": "Cake",
+    "price": "25.00 EUR",
+    "latest": true,
+    "portfolio": true,
+    "ingredients": [
+        "Blue",
+        "Coconut",
+        "Sugar",
+        "Flour"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elit mattis adipiscing. Fusce in hendrerit purus. Suspendisse potenti. Proin quis eros odio, dapibus dictum mauris. Donec nisi libero, adipiscing id pretium eget, consectetur sit amet leo. Nam at eros quis mi egestas fringilla non nec purus."
   }
 ]
