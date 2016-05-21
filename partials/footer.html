@@ -25,7 +25,7 @@
 							</form>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3" id="recentWork">
 						<h4>Recent Work</h4>
 
 						<ul class="list-unstyled recent-work">
@@ -40,16 +40,53 @@
 							{{/each}}
 						</ul>
 
-						<a href="#" class="btn-flat pull-right btn-xs view-more-recent-work">View More <i class="icon icon-arrow-right"></i></a>
+						<a href="#recentWork" class="btn-flat pull-right btn-xs view-more-recent-work">View More <i class="icon icon-arrow-right"></i></a>
 
 					</div>
 					<div class="col-md-4">
 						<div class="contact-details">
 							<h4>Contact Us</h4>
 							<ul class="contact">
-								<li><p><i class="icon icon-map-marker"></i> <strong>Address:</strong> 1234 Street Name, City Name, United States</p></li>
-								<li><p><i class="icon icon-phone"></i> <strong>Phone:</strong> 622 9 111 44</p></li>
-								<li><p><i class="icon icon-envelope"></i> <strong>Email:</strong> <a href="mailto:ann.kyrpychenko@gmail.com">ann.kyrpychenko@gmail.com</a></p></li>
+								<li><p><i class="icon icon-map-marker"></i> <strong>Address:</strong> Av Catalana 123 Sant Adria de Besos 08930 Spain</p></li>
+								<li><p><i class="icon icon-phone"></i> <strong>Phone:</strong> (+34) 622 9 111 44</p></li>
+								<li><p><i class="icon icon-envelope"></i> <strong>Email:</strong> <a href="#" data-toggle="modal" data-target="#contactUsModal">Contact Us</a></p></li>
+
+									<div class="modal fade" id="contactUsModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+													<h4 class="modal-title" id="formModalLabel">Contact Us</h4>
+												</div>
+												<div class="modal-body">
+													<form id="demo-form" class="form-horizontal mb-lg" novalidate="novalidate">
+														<div class="form-group mt-lg">
+															<label class="col-sm-3 control-label">Name</label>
+															<div class="col-sm-9">
+																<input type="text" name="name" class="form-control" placeholder="Type your name..." required="">
+															</div>
+														</div>
+														<div class="form-group">
+															<label class="col-sm-3 control-label">Email</label>
+															<div class="col-sm-9">
+																<input type="email" name="email" class="form-control" placeholder="Type your email..." required="">
+															</div>
+														</div>
+														<div class="form-group">
+															<label class="col-sm-3 control-label">Comment</label>
+															<div class="col-sm-9">
+																<textarea rows="5" class="form-control" placeholder="Type your comment..." required=""></textarea>
+															</div>
+														</div>
+													</form>
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+													<button type="button" class="btn btn-primary">Send</button>
+												</div>
+											</div>
+										</div>
+									</div>
 							</ul>
 						</div>
 					</div>
@@ -69,8 +106,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-1">
-							<a href="index.html" class="logo">
-								<img alt="Porto Website Template" class="img-responsive" src="img/logo-footer.png">
+							<a href="#" class="logo">
+								<img alt="AnnPastry.com - your personal pastry chef" class="img-responsive" src="img/logo-footer2.png">
 							</a>
 						</div>
 						<div class="col-md-7">
@@ -80,8 +117,6 @@
 							<nav id="sub-menu">
 								<ul>
 									<li><a href="#">FAQ's</a></li>
-									<li><a href="#">Sitemap</a></li>
-									<li><a href="#">Contact Us</a></li>
 								</ul>
 							</nav>
 						</div>
